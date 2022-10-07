@@ -5,7 +5,7 @@ array={2,4,6,8,10,11,12,16}
 
 package Java_DSA.Java_Arrays;
 public class linearSearch {
-    public static int linearSearch(int numbers[], int key){
+    public static int lSearch(int numbers[], int key){
         for(int i=0;i<numbers.length;i++){
             if(key==numbers[i]){
                 return i;
@@ -16,7 +16,7 @@ public class linearSearch {
     public static void main(String[] args) {
         int key=10;
         int numbers[]={2,4,6,8,10,11,12,16};
-        int index=linearSearch(numbers, key);
+        int index=lSearch(numbers, key);
 
         if(index==-1){
             System.out.println("Element not found");
