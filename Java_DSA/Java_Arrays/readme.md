@@ -27,3 +27,22 @@
  # Reverse an array:-
  * For reverse an array we use swaping,
  * We can also reverse by creating a new array and store value in reverese order from original array.But by doing this the <b>time complexity</b> and <b>space complexity</b>will be <b>O(n)</b>and <b>O(n)</b> respectively.But if we use swap techniques the time complexity will be same but space complexity change to constant <b>O(1)</b>.
+ ***
+ # Pairs in array
+  --- --- --- --- ---
+ | 2 | 3 | 4 | 5 | 6 |
+  --- --- --- --- ---
+ *  (2,3)(2,4)(2,5)(2,6)
+    (3,4)(3,5)(3,6)
+    (4,5)(4,6)
+    (5,6)
+    Total Pairs : 10
+ ***
+ # Print Subarray
+ * Subarray is continous part of an array.
+  for example.:-
+ * Given Array:
+     --- --- --- --- ---
+    | 2 | 4 | 6 | 8 | 10 |
+     --- --- --- --- ---
+
